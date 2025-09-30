@@ -1,0 +1,115 @@
+{
+  "_fetched_at": "2025-09-18T19:20:01.360653Z",
+  "raw_text_snippet": "{\"uf\":\"SC\",\"cep\":\"88790000\",\"qsa\":[{\"pais\":null,\"nome_socio\":\"LIARA DIVINA LOCKS COELHO\",\"codigo_pais\":null,\"faixa_etaria\":\"Entre 41 a 50 anos\",\"cnpj_cpf_do_socio\":\"***801229**\",\"qualificacao_socio\":\"Sócio-Administrador\",\"codigo_faixa_etaria\":5,\"data_entrada_sociedade\":\"2012-04-18\",\"identificador_de_socio\":2,\"cpf_representante_legal\":\"***000000**\",\"nome_representante_legal\":\"\",\"codigo_qualificacao_socio\":49,\"qualificacao_representante_legal\":\"Não informada\",\"codigo_qualificacao_representante_legal\":0},{\"pais\":null,\"nome_socio\":\"MAICON DA SILVA\",\"codigo_pais\":null,\"faixa_etaria\":\"Entre 41 a 50 anos\",\"cnpj_cpf_do_socio\":\"***002029**\",\"qualificacao_socio\":\"Sócio-Administrador\",\"codigo_faixa_etaria\":5,\"data_entrada_sociedade\":\"2016-06-17\",\"identificador_de_socio\":2,\"cpf_representante_legal\":\"***000000**\",\"nome_representante_legal\":\"\",\"codigo_qualificacao_socio\":49,\"qualificacao_representante_legal\":\"Não informada\",\"codigo_qualificacao_representante_legal\":0}],\"cnpj\":\"15388563000176\",\"pais\"...",
+  "json": {
+    "uf": "SC",
+    "cep": "88790000",
+    "qsa": [
+      {
+        "pais": null,
+        "nome_socio": "LIARA DIVINA LOCKS COELHO",
+        "codigo_pais": null,
+        "faixa_etaria": "Entre 41 a 50 anos",
+        "cnpj_cpf_do_socio": "***801229**",
+        "qualificacao_socio": "Sócio-Administrador",
+        "codigo_faixa_etaria": 5,
+        "data_entrada_sociedade": "2012-04-18",
+        "identificador_de_socio": 2,
+        "cpf_representante_legal": "***000000**",
+        "nome_representante_legal": "",
+        "codigo_qualificacao_socio": 49,
+        "qualificacao_representante_legal": "Não informada",
+        "codigo_qualificacao_representante_legal": 0
+      },
+      {
+        "pais": null,
+        "nome_socio": "MAICON DA SILVA",
+        "codigo_pais": null,
+        "faixa_etaria": "Entre 41 a 50 anos",
+        "cnpj_cpf_do_socio": "***002029**",
+        "qualificacao_socio": "Sócio-Administrador",
+        "codigo_faixa_etaria": 5,
+        "data_entrada_sociedade": "2016-06-17",
+        "identificador_de_socio": 2,
+        "cpf_representante_legal": "***000000**",
+        "nome_representante_legal": "",
+        "codigo_qualificacao_socio": 49,
+        "qualificacao_representante_legal": "Não informada",
+        "codigo_qualificacao_representante_legal": 0
+      }
+    ],
+    "cnpj": "15388563000176",
+    "pais": null,
+    "email": null,
+    "porte": "EMPRESA DE PEQUENO PORTE",
+    "bairro": "PROGRESSO",
+    "numero": "570",
+    "ddd_fax": "4899108221",
+    "municipio": "LAGUNA",
+    "logradouro": "CORONEL FERNANDES MARTINS",
+    "cnae_fiscal": 4646001,
+    "codigo_pais": null,
+    "complemento": "",
+    "codigo_porte": 3,
+    "razao_social": "LOCKS & SILVA COMERCIO ATACADISTA DE MERCADORIAS LTDA",
+    "nome_fantasia": "GRANDI ATACADISTA",
+    "capital_social": 198000,
+    "ddd_telefone_1": "4836472268",
+    "ddd_telefone_2": "",
+    "opcao_pelo_mei": false,
+    "codigo_municipio": 8185,
+    "cnaes_secundarios": [
+      {
+        "codigo": 4646002,
+        "descricao": "Comércio atacadista de produtos de higiene pessoal"
+      },
+      {
+        "codigo": 4771701,
+        "descricao": "Comércio varejista de produtos farmacêuticos, sem manipulação de fórmulas"
+      }
+    ],
+    "natureza_juridica": "Sociedade Empresária Limitada",
+    "regime_tributario": [
+      {
+        "ano": 2021,
+        "cnpj_da_scp": null,
+        "forma_de_tributacao": "LUCRO PRESUMIDO",
+        "quantidade_de_escrituracoes": 1
+      },
+      {
+        "ano": 2022,
+        "cnpj_da_scp": null,
+        "forma_de_tributacao": "LUCRO PRESUMIDO",
+        "quantidade_de_escrituracoes": 1
+      },
+      {
+        "ano": 2023,
+        "cnpj_da_scp": null,
+        "forma_de_tributacao": "LUCRO PRESUMIDO",
+        "quantidade_de_escrituracoes": 1
+      }
+    ],
+    "situacao_especial": "",
+    "opcao_pelo_simples": false,
+    "situacao_cadastral": 2,
+    "data_opcao_pelo_mei": null,
+    "data_exclusao_do_mei": null,
+    "cnae_fiscal_descricao": "Comércio atacadista de cosméticos e produtos de perfumaria",
+    "codigo_municipio_ibge": 4209409,
+    "data_inicio_atividade": "2012-04-18",
+    "data_situacao_especial": null,
+    "data_opcao_pelo_simples": "2012-04-18",
+    "data_situacao_cadastral": "2012-04-18",
+    "nome_cidade_no_exterior": "",
+    "codigo_natureza_juridica": 2062,
+    "data_exclusao_do_simples": "2020-12-31",
+    "motivo_situacao_cadastral": 0,
+    "ente_federativo_responsavel": "",
+    "identificador_matriz_filial": 1,
+    "qualificacao_do_responsavel": 49,
+    "descricao_situacao_cadastral": "ATIVA",
+    "descricao_tipo_de_logradouro": "RUA",
+    "descricao_motivo_situacao_cadastral": "SEM MOTIVO",
+    "descricao_identificador_matriz_filial": "MATRIZ"
+  }
+}

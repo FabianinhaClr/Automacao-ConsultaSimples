@@ -1,0 +1,56 @@
+{
+  "_fetched_at": "2025-09-26T12:45:29.075957Z",
+  "response_text_snippet": "{\"code\":200,\"code_message\":\"A requisição foi processada com sucesso.\",\"errors\":[],\"header\":{\"api_version\":\"v2\",\"api_version_full\":\"2.2.30-20250926091904\",\"product\":\"Consultas\",\"service\":\"receita-federal/simples\",\"parameters\":{\"cnpj\":\"81790867000190\"},\"client_name\":\"Clara Fabiana Luiz Antonelo\",\"token_name\":\"Clara Fabiana Luiz Antonelo\",\"billable\":true,\"price\":\"0.24\",\"requested_at\":\"2025-09-26T09:4...",
+  "json": {
+    "code": 200,
+    "code_message": "A requisição foi processada com sucesso.",
+    "errors": [],
+    "header": {
+      "api_version": "v2",
+      "api_version_full": "2.2.30-20250926091904",
+      "product": "Consultas",
+      "service": "receita-federal/simples",
+      "parameters": {
+        "cnpj": "81790867000190"
+      },
+      "client_name": "Clara Fabiana Luiz Antonelo",
+      "token_name": "Clara Fabiana Luiz Antonelo",
+      "billable": true,
+      "price": "0.24",
+      "requested_at": "2025-09-26T09:45:28.000-03:00",
+      "elapsed_time_in_milliseconds": 1239,
+      "remote_ip": "177.126.194.62",
+      "signature": "Su3BXfFY1AMNITlJAw8ZfmWkS9PW8rOqLytY7FjKiTTE3aGJpYVs5hO+2n34J0h/bOxYIEef+o2NheddYSmbkTd1URAT5ILwjRlI2g=="
+    },
+    "data_count": 1,
+    "data": [
+      {
+        "cnpj": "81.790.867/0001-90",
+        "conseguiu_obter_mais_informacoes": true,
+        "consulta_datahora": "26/09/2025 09:45:27",
+        "normalizado_cnpj": "81790867000190",
+        "origem": "web",
+        "razao_social": "FRIGOSIL FRIGORIFICO LTDA.",
+        "simei_eventos_futuros": [],
+        "simei_periodos_anteriores": [],
+        "simei_situacao": "NÃO enquadrado no SIMEI",
+        "simples_nacional_agendamentos": [],
+        "simples_nacional_eventos_futuros": [],
+        "simples_nacional_periodos_anteriores": [
+          {
+            "inicio_data": "01/07/2007",
+            "fim_data": "31/12/2013",
+            "detalhamento": "Excluída por Opção do Contribuinte",
+            "normalizado_inicio_data": "01/07/2007",
+            "normalizado_fim_data": "31/12/2013"
+          }
+        ],
+        "simples_nacional_situacao": "NÃO optante pelo Simples Nacional",
+        "site_receipt": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/twLQVxfti5NeZ-d3H4onG2qvJL3xDuKzc3njZ6Ynf2A=/1759495528/nAVhKO/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NTI4L01HclhZcWxaU1JJdDQwemxfSWtaZWJYcXZsVzBENjRiL2ZiOWFjMDJhZGVkNjRjMzVkNjU2MDk0YzYyYzE3NzViXzBfbWJv.html"
+      }
+    ],
+    "site_receipts": [
+      "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/twLQVxfti5NeZ-d3H4onG2qvJL3xDuKzc3njZ6Ynf2A=/1759495528/nAVhKO/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NTI4L01HclhZcWxaU1JJdDQwemxfSWtaZWJYcXZsVzBENjRiL2ZiOWFjMDJhZGVkNjRjMzVkNjU2MDk0YzYyYzE3NzViXzBfbWJv.html"
+    ]
+  }
+}

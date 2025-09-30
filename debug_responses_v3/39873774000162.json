@@ -1,0 +1,48 @@
+{
+  "_fetched_at": "2025-09-26T12:46:01.345174Z",
+  "response_text_snippet": "{\"code\":200,\"code_message\":\"A requisição foi processada com sucesso.\",\"errors\":[],\"header\":{\"api_version\":\"v2\",\"api_version_full\":\"2.2.30-20250926091904\",\"product\":\"Consultas\",\"service\":\"receita-federal/simples\",\"parameters\":{\"cnpj\":\"39873774000162\"},\"client_name\":\"Clara Fabiana Luiz Antonelo\",\"token_name\":\"Clara Fabiana Luiz Antonelo\",\"billable\":true,\"price\":\"0.24\",\"requested_at\":\"2025-09-26T09:4...",
+  "json": {
+    "code": 200,
+    "code_message": "A requisição foi processada com sucesso.",
+    "errors": [],
+    "header": {
+      "api_version": "v2",
+      "api_version_full": "2.2.30-20250926091904",
+      "product": "Consultas",
+      "service": "receita-federal/simples",
+      "parameters": {
+        "cnpj": "39873774000162"
+      },
+      "client_name": "Clara Fabiana Luiz Antonelo",
+      "token_name": "Clara Fabiana Luiz Antonelo",
+      "billable": true,
+      "price": "0.24",
+      "requested_at": "2025-09-26T09:46:00.000-03:00",
+      "elapsed_time_in_milliseconds": 1327,
+      "remote_ip": "177.126.194.62",
+      "signature": "3iff+ixA/7+2SzwL2nVsNdkh5qrMJtDVnndRbccaC/Vx25v2A+WzDkDIbQHedRS6uguYKe0LCOJPdZ+RupRhfkGWRiiDr7jYCBrnfw=="
+    },
+    "data_count": 1,
+    "data": [
+      {
+        "cnpj": "39.873.774/0001-62",
+        "conseguiu_obter_mais_informacoes": true,
+        "consulta_datahora": "26/09/2025 09:46:00",
+        "normalizado_cnpj": "39873774000162",
+        "origem": "web",
+        "razao_social": "DV COGUMELOS SUL LTDA",
+        "simei_eventos_futuros": [],
+        "simei_periodos_anteriores": [],
+        "simei_situacao": "NÃO enquadrado no SIMEI",
+        "simples_nacional_agendamentos": [],
+        "simples_nacional_eventos_futuros": [],
+        "simples_nacional_periodos_anteriores": [],
+        "simples_nacional_situacao": "NÃO optante pelo Simples Nacional",
+        "site_receipt": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/niv6rAMJ3v8Srad8EdgQdk2AIA9Uqw8H6HrPHkuZEKo=/1759495560/UXgC4O/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NjAwL18zR2ZHR3JtbzdLWlBnX1UtWDIwVG9vQkp5eXM5NGE4L2IwYThlOThlMDU5MTViMTU5N2I0NTIxYjIwMzgxNDQwXzBfQnlz.html"
+      }
+    ],
+    "site_receipts": [
+      "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/niv6rAMJ3v8Srad8EdgQdk2AIA9Uqw8H6HrPHkuZEKo=/1759495560/UXgC4O/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NjAwL18zR2ZHR3JtbzdLWlBnX1UtWDIwVG9vQkp5eXM5NGE4L2IwYThlOThlMDU5MTViMTU5N2I0NTIxYjIwMzgxNDQwXzBfQnlz.html"
+    ]
+  }
+}

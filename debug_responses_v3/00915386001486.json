@@ -1,0 +1,56 @@
+{
+  "_fetched_at": "2025-09-26T12:45:07.356555Z",
+  "response_text_snippet": "{\"code\":200,\"code_message\":\"A requisição foi processada com sucesso.\",\"errors\":[],\"header\":{\"api_version\":\"v2\",\"api_version_full\":\"2.2.30-20250926091904\",\"product\":\"Consultas\",\"service\":\"receita-federal/simples\",\"parameters\":{\"cnpj\":\"00915386001486\"},\"client_name\":\"Clara Fabiana Luiz Antonelo\",\"token_name\":\"Clara Fabiana Luiz Antonelo\",\"billable\":true,\"price\":\"0.24\",\"requested_at\":\"2025-09-26T09:4...",
+  "json": {
+    "code": 200,
+    "code_message": "A requisição foi processada com sucesso.",
+    "errors": [],
+    "header": {
+      "api_version": "v2",
+      "api_version_full": "2.2.30-20250926091904",
+      "product": "Consultas",
+      "service": "receita-federal/simples",
+      "parameters": {
+        "cnpj": "00915386001486"
+      },
+      "client_name": "Clara Fabiana Luiz Antonelo",
+      "token_name": "Clara Fabiana Luiz Antonelo",
+      "billable": true,
+      "price": "0.24",
+      "requested_at": "2025-09-26T09:45:06.000-03:00",
+      "elapsed_time_in_milliseconds": 1362,
+      "remote_ip": "177.126.194.62",
+      "signature": "fU+tP4GF5z0RqMqgDeargKVK9EQOD/zOPeuWL2t2JvamQ9IeN3GAdwqJs1BqZiTjHx6eYysAV4UtzqeBA2G73M4CxqcnMgzeMQNZrQ=="
+    },
+    "data_count": 1,
+    "data": [
+      {
+        "cnpj": "00.915.386/0001-61",
+        "conseguiu_obter_mais_informacoes": true,
+        "consulta_datahora": "26/09/2025 09:45:06",
+        "normalizado_cnpj": "00915386000161",
+        "origem": "web",
+        "razao_social": "RAMOS MOVEIS E ELETRO LTDA",
+        "simei_eventos_futuros": [],
+        "simei_periodos_anteriores": [],
+        "simei_situacao": "NÃO enquadrado no SIMEI",
+        "simples_nacional_agendamentos": [],
+        "simples_nacional_eventos_futuros": [],
+        "simples_nacional_periodos_anteriores": [
+          {
+            "inicio_data": "01/01/2009",
+            "fim_data": "31/07/2014",
+            "detalhamento": "Excluída por Comunicação Obrigatória do Contribuinte",
+            "normalizado_inicio_data": "01/01/2009",
+            "normalizado_fim_data": "31/07/2014"
+          }
+        ],
+        "simples_nacional_situacao": "NÃO optante pelo Simples Nacional",
+        "site_receipt": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/0PyHohR1IlYAYEPAkqm4YH6S8kkWNGNya-5JFymAeyg=/1759495506/oVMYj6/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NTA2L2pDdXB4dERiYTVkOXprbHV3bDlBYWJGaUNKZk9CaVBZLzBmYTRlYjlmOGJiNTc3ODQ4YTVmNjA5M2I0ODg1MGM0XzBfczBz.html"
+      }
+    ],
+    "site_receipts": [
+      "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/0PyHohR1IlYAYEPAkqm4YH6S8kkWNGNya-5JFymAeyg=/1759495506/oVMYj6/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NTA2L2pDdXB4dERiYTVkOXprbHV3bDlBYWJGaUNKZk9CaVBZLzBmYTRlYjlmOGJiNTc3ODQ4YTVmNjA5M2I0ODg1MGM0XzBfczBz.html"
+    ]
+  }
+}

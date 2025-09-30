@@ -1,0 +1,56 @@
+{
+  "_fetched_at": "2025-09-26T12:44:21.697421Z",
+  "response_text_snippet": "{\"code\":200,\"code_message\":\"A requisição foi processada com sucesso.\",\"errors\":[],\"header\":{\"api_version\":\"v2\",\"api_version_full\":\"2.2.30-20250926091904\",\"product\":\"Consultas\",\"service\":\"receita-federal/simples\",\"parameters\":{\"cnpj\":\"09602283000205\"},\"client_name\":\"Clara Fabiana Luiz Antonelo\",\"token_name\":\"Clara Fabiana Luiz Antonelo\",\"billable\":true,\"price\":\"0.24\",\"requested_at\":\"2025-09-26T09:4...",
+  "json": {
+    "code": 200,
+    "code_message": "A requisição foi processada com sucesso.",
+    "errors": [],
+    "header": {
+      "api_version": "v2",
+      "api_version_full": "2.2.30-20250926091904",
+      "product": "Consultas",
+      "service": "receita-federal/simples",
+      "parameters": {
+        "cnpj": "09602283000205"
+      },
+      "client_name": "Clara Fabiana Luiz Antonelo",
+      "token_name": "Clara Fabiana Luiz Antonelo",
+      "billable": true,
+      "price": "0.24",
+      "requested_at": "2025-09-26T09:44:20.000-03:00",
+      "elapsed_time_in_milliseconds": 1237,
+      "remote_ip": "177.126.194.62",
+      "signature": "ujWZHQhcCCRIvXMxLPp2kp98LeHlnhK6EO907X8wdQ3aR3uwDY7fxJ+tps/9h/zHNbXmTTKN1vXmeZIQzxSExCe6l34hBxPOLMwaWg=="
+    },
+    "data_count": 1,
+    "data": [
+      {
+        "cnpj": "09.602.283/0001-16",
+        "conseguiu_obter_mais_informacoes": true,
+        "consulta_datahora": "26/09/2025 09:44:20",
+        "normalizado_cnpj": "09602283000116",
+        "origem": "web",
+        "razao_social": "PAULI HORTIFRUTI LTDA",
+        "simei_eventos_futuros": [],
+        "simei_periodos_anteriores": [],
+        "simei_situacao": "NÃO enquadrado no SIMEI",
+        "simples_nacional_agendamentos": [],
+        "simples_nacional_eventos_futuros": [],
+        "simples_nacional_periodos_anteriores": [
+          {
+            "inicio_data": "30/05/2008",
+            "fim_data": "30/06/2016",
+            "detalhamento": "Excluída por Comunicação Obrigatória do Contribuinte",
+            "normalizado_inicio_data": "30/05/2008",
+            "normalizado_fim_data": "30/06/2016"
+          }
+        ],
+        "simples_nacional_situacao": "NÃO optante pelo Simples Nacional",
+        "site_receipt": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/DQS4CnUMOSasAtTLeYeR4U9ZtZxbi5SxdUDwjTVwgb8=/1759495460/IlRU8W/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NDIwL09RVHVoSDB0bnhjd3IxNjBUOXJBZjhUTXFnanZUQU0xL2U0MDlkN2Q2ZTU1ZDc1MGUwMGM5Y2ZjYWZiMzYwMjkyXzBfQXA4.html"
+      }
+    ],
+    "site_receipts": [
+      "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/DQS4CnUMOSasAtTLeYeR4U9ZtZxbi5SxdUDwjTVwgb8=/1759495460/IlRU8W/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NDIwL09RVHVoSDB0bnhjd3IxNjBUOXJBZjhUTXFnanZUQU0xL2U0MDlkN2Q2ZTU1ZDc1MGUwMGM5Y2ZjYWZiMzYwMjkyXzBfQXA4.html"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fetched_at": "2025-09-26T12:46:16.557132Z",
+  "response_text_snippet": "{\"code\":200,\"code_message\":\"A requisição foi processada com sucesso.\",\"errors\":[],\"header\":{\"api_version\":\"v2\",\"api_version_full\":\"2.2.30-20250926091904\",\"product\":\"Consultas\",\"service\":\"receita-federal/simples\",\"parameters\":{\"cnpj\":\"36986232000108\"},\"client_name\":\"Clara Fabiana Luiz Antonelo\",\"token_name\":\"Clara Fabiana Luiz Antonelo\",\"billable\":true,\"price\":\"0.24\",\"requested_at\":\"2025-09-26T09:4...",
+  "json": {
+    "code": 200,
+    "code_message": "A requisição foi processada com sucesso.",
+    "errors": [],
+    "header": {
+      "api_version": "v2",
+      "api_version_full": "2.2.30-20250926091904",
+      "product": "Consultas",
+      "service": "receita-federal/simples",
+      "parameters": {
+        "cnpj": "36986232000108"
+      },
+      "client_name": "Clara Fabiana Luiz Antonelo",
+      "token_name": "Clara Fabiana Luiz Antonelo",
+      "billable": true,
+      "price": "0.24",
+      "requested_at": "2025-09-26T09:46:15.000-03:00",
+      "elapsed_time_in_milliseconds": 1554,
+      "remote_ip": "177.126.194.62",
+      "signature": "KPNEXZMqWcKdzqZg2x5itPMtn2yLrNsIWD018zeCeWO8dWuRsXodiffnxpGImJPEAdcc9vO8XZLNVBq/A1we2iWCXXv+OB59V2pz7w=="
+    },
+    "data_count": 1,
+    "data": [
+      {
+        "cnpj": "36.986.232/0001-08",
+        "conseguiu_obter_mais_informacoes": true,
+        "consulta_datahora": "26/09/2025 09:46:15",
+        "normalizado_cnpj": "36986232000108",
+        "origem": "web",
+        "razao_social": "MMT COMERCIO DE ALIMENTOS E BEBIDAS, SERVICOS DE LOGISTICA E REPRESENTACAO COMERCIAL LTDA",
+        "simei_eventos_futuros": [],
+        "simei_periodos_anteriores": [],
+        "simei_situacao": "NÃO enquadrado no SIMEI",
+        "simples_nacional_agendamentos": [],
+        "simples_nacional_eventos_futuros": [],
+        "simples_nacional_periodos_anteriores": [],
+        "simples_nacional_situacao": "NÃO optante pelo Simples Nacional",
+        "site_receipt": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/1-4BEoyeCMIWDvycgo84St66Fr7Q5bdK-_G2wNmygkM=/1759495575/p2owoD/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NjE1L2pRWHJwNW45cW0ySjZKWDBiY3dRRnBqc21CWFNxTUlSL2I1M2Y4OGI4ZGNkYjFhYzc4NDIxM2YzY2YwMWYwOTZmXzBfempv.html"
+      }
+    ],
+    "site_receipts": [
+      "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/1-4BEoyeCMIWDvycgo84St66Fr7Q5bdK-_G2wNmygkM=/1759495575/p2owoD/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NjE1L2pRWHJwNW45cW0ySjZKWDBiY3dRRnBqc21CWFNxTUlSL2I1M2Y4OGI4ZGNkYjFhYzc4NDIxM2YzY2YwMWYwOTZmXzBfempv.html"
+    ]
+  }
+}

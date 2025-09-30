@@ -1,0 +1,63 @@
+{
+  "_fetched_at": "2025-09-26T13:06:08.298821Z",
+  "response_text_snippet": "{\"code\":200,\"code_message\":\"A requisição foi processada com sucesso.\",\"errors\":[],\"header\":{\"api_version\":\"v2\",\"api_version_full\":\"2.2.30-20250926091904\",\"product\":\"Consultas\",\"service\":\"receita-federal/simples\",\"parameters\":{\"cnpj\":\"08644272000136\"},\"client_name\":\"Clara Fabiana Luiz Antonelo\",\"token_name\":\"Clara Fabiana Luiz Antonelo\",\"billable\":true,\"price\":\"0.24\",\"requested_at\":\"2025-09-26T10:0...",
+  "json": {
+    "code": 200,
+    "code_message": "A requisição foi processada com sucesso.",
+    "errors": [],
+    "header": {
+      "api_version": "v2",
+      "api_version_full": "2.2.30-20250926091904",
+      "product": "Consultas",
+      "service": "receita-federal/simples",
+      "parameters": {
+        "cnpj": "08644272000136"
+      },
+      "client_name": "Clara Fabiana Luiz Antonelo",
+      "token_name": "Clara Fabiana Luiz Antonelo",
+      "billable": true,
+      "price": "0.24",
+      "requested_at": "2025-09-26T10:06:07.000-03:00",
+      "elapsed_time_in_milliseconds": 1478,
+      "remote_ip": "177.126.194.62",
+      "signature": "pNZFjbL+s8QOCvNCyIyqjrpTLiWtMp6WGxvdqyvFKERvm7/RK7qUR/UI/tsqxrw6UT7k0YYdzgvh3v7yIBcmv1BWH9dQxPXd5GrtoQ=="
+    },
+    "data_count": 1,
+    "data": [
+      {
+        "cnpj": "08.644.272/0001-36",
+        "conseguiu_obter_mais_informacoes": true,
+        "consulta_datahora": "26/09/2025 10:06:06",
+        "normalizado_cnpj": "08644272000136",
+        "origem": "web",
+        "razao_social": "LATICINIOS FAZENDA REAL LTDA",
+        "simei_eventos_futuros": [],
+        "simei_periodos_anteriores": [],
+        "simei_situacao": "NÃO enquadrado no SIMEI",
+        "simples_nacional_agendamentos": [],
+        "simples_nacional_eventos_futuros": [],
+        "simples_nacional_periodos_anteriores": [
+          {
+            "inicio_data": "01/01/2009",
+            "fim_data": "31/12/2010",
+            "detalhamento": "Excluída por Opção do Contribuinte",
+            "normalizado_inicio_data": "01/01/2009",
+            "normalizado_fim_data": "31/12/2010"
+          },
+          {
+            "inicio_data": "01/07/2007",
+            "fim_data": "31/12/2007",
+            "detalhamento": "Excluída por Opção do Contribuinte",
+            "normalizado_inicio_data": "01/07/2007",
+            "normalizado_fim_data": "31/12/2007"
+          }
+        ],
+        "simples_nacional_situacao": "NÃO optante pelo Simples Nacional",
+        "site_receipt": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/WNpux0v0WjqyvCUfTv203Mll7lody4KF4Fh2gSbAQXs=/1759496767/AHogJx/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MTAwNjA3L0lPeklrWmNqZmxtOGY0SWo2NzE2YTdhVkFvdWozSjJZL2U2ZDVlNTFiNzg0ZDFiZDJjYTY4OWMzMTZiMWI4YWI5XzBfV3lF.html"
+      }
+    ],
+    "site_receipts": [
+      "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/WNpux0v0WjqyvCUfTv203Mll7lody4KF4Fh2gSbAQXs=/1759496767/AHogJx/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MTAwNjA3L0lPeklrWmNqZmxtOGY0SWo2NzE2YTdhVkFvdWozSjJZL2U2ZDVlNTFiNzg0ZDFiZDJjYTY4OWMzMTZiMWI4YWI5XzBfV3lF.html"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fetched_at": "2025-09-26T12:45:51.746723Z",
+  "response_text_snippet": "{\"code\":200,\"code_message\":\"A requisição foi processada com sucesso.\",\"errors\":[],\"header\":{\"api_version\":\"v2\",\"api_version_full\":\"2.2.30-20250926091904\",\"product\":\"Consultas\",\"service\":\"receita-federal/simples\",\"parameters\":{\"cnpj\":\"75339275000153\"},\"client_name\":\"Clara Fabiana Luiz Antonelo\",\"token_name\":\"Clara Fabiana Luiz Antonelo\",\"billable\":true,\"price\":\"0.24\",\"requested_at\":\"2025-09-26T09:4...",
+  "json": {
+    "code": 200,
+    "code_message": "A requisição foi processada com sucesso.",
+    "errors": [],
+    "header": {
+      "api_version": "v2",
+      "api_version_full": "2.2.30-20250926091904",
+      "product": "Consultas",
+      "service": "receita-federal/simples",
+      "parameters": {
+        "cnpj": "75339275000153"
+      },
+      "client_name": "Clara Fabiana Luiz Antonelo",
+      "token_name": "Clara Fabiana Luiz Antonelo",
+      "billable": true,
+      "price": "0.24",
+      "requested_at": "2025-09-26T09:45:50.000-03:00",
+      "elapsed_time_in_milliseconds": 1473,
+      "remote_ip": "177.126.194.62",
+      "signature": "MkSLYeNxO0gYIwwE2KUvUli7NU0TH5vc/JcEfq516CRNrZRjft8uS3n7BVG/eOVN90pIvGoy0OW+RUK06vSR/inw6JTJ20m5ht/8jg=="
+    },
+    "data_count": 1,
+    "data": [
+      {
+        "cnpj": "75.339.275/0001-53",
+        "conseguiu_obter_mais_informacoes": true,
+        "consulta_datahora": "26/09/2025 09:45:50",
+        "normalizado_cnpj": "75339275000153",
+        "origem": "web",
+        "razao_social": "CUNHA COMERCIO DE FRUTAS LTDA",
+        "simei_eventos_futuros": [],
+        "simei_periodos_anteriores": [],
+        "simei_situacao": "NÃO enquadrado no SIMEI",
+        "simples_nacional_agendamentos": [],
+        "simples_nacional_eventos_futuros": [],
+        "simples_nacional_periodos_anteriores": [],
+        "simples_nacional_situacao": "NÃO optante pelo Simples Nacional",
+        "site_receipt": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/jtkMDRpbc5SqMmuhkqu6B3-MSApWoocoSqw_mgAuq-g=/1759495550/dsxEJS/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NTUwL0JwYzVYeE9Jel9uR2x3MlprSE1JNGNzSFBSVVRsT21nLzljN2VmODhkZTZhZGU3N2Y0OGM2MDZhZmIwMTQ2NjM2XzBfWkNN.html"
+      }
+    ],
+    "site_receipts": [
+      "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/jtkMDRpbc5SqMmuhkqu6B3-MSApWoocoSqw_mgAuq-g=/1759495550/dsxEJS/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NTUwL0JwYzVYeE9Jel9uR2x3MlprSE1JNGNzSFBSVVRsT21nLzljN2VmODhkZTZhZGU3N2Y0OGM2MDZhZmIwMTQ2NjM2XzBfWkNN.html"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "_fetched_at": "2025-09-26T12:46:13.477264Z",
+  "response_text_snippet": "{\"code\":200,\"code_message\":\"A requisição foi processada com sucesso.\",\"errors\":[],\"header\":{\"api_version\":\"v2\",\"api_version_full\":\"2.2.30-20250926091904\",\"product\":\"Consultas\",\"service\":\"receita-federal/simples\",\"parameters\":{\"cnpj\":\"11380410000121\"},\"client_name\":\"Clara Fabiana Luiz Antonelo\",\"token_name\":\"Clara Fabiana Luiz Antonelo\",\"billable\":true,\"price\":\"0.24\",\"requested_at\":\"2025-09-26T09:4...",
+  "json": {
+    "code": 200,
+    "code_message": "A requisição foi processada com sucesso.",
+    "errors": [],
+    "header": {
+      "api_version": "v2",
+      "api_version_full": "2.2.30-20250926091904",
+      "product": "Consultas",
+      "service": "receita-federal/simples",
+      "parameters": {
+        "cnpj": "11380410000121"
+      },
+      "client_name": "Clara Fabiana Luiz Antonelo",
+      "token_name": "Clara Fabiana Luiz Antonelo",
+      "billable": true,
+      "price": "0.24",
+      "requested_at": "2025-09-26T09:46:12.000-03:00",
+      "elapsed_time_in_milliseconds": 1406,
+      "remote_ip": "177.126.194.62",
+      "signature": "s1+tLneRPN6IJIkWO8H4Zxmyrwax2kr3i53pzX7maA0o4HNDNj9RMMJZynWLmvE5YkDuruAClF7iKX7zyOK0F+KmvgvNmCTreu5GDg=="
+    },
+    "data_count": 1,
+    "data": [
+      {
+        "cnpj": "11.380.410/0001-21",
+        "conseguiu_obter_mais_informacoes": true,
+        "consulta_datahora": "26/09/2025 09:46:12",
+        "normalizado_cnpj": "11380410000121",
+        "origem": "web",
+        "razao_social": "EUROPA DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+        "simei_eventos_futuros": [],
+        "simei_periodos_anteriores": [],
+        "simei_situacao": "NÃO enquadrado no SIMEI",
+        "simples_nacional_agendamentos": [],
+        "simples_nacional_eventos_futuros": [],
+        "simples_nacional_periodos_anteriores": [
+          {
+            "inicio_data": "12/11/2009",
+            "fim_data": "31/12/2017",
+            "detalhamento": "Excluída por Ato Administrativo praticado pela Receita Federal do Brasil",
+            "normalizado_inicio_data": "12/11/2009",
+            "normalizado_fim_data": "31/12/2017"
+          }
+        ],
+        "simples_nacional_situacao": "NÃO optante pelo Simples Nacional",
+        "site_receipt": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/01xxkcFtN9iqYzhStKQVzAIHWq0U_OoqtnXZsZ97Cxc=/1759495572/Oth7j2/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NjEyLzNCcThFRllkX3UyMExYMnJkMHkxUEMxWjFhd2J2V2cyLzI4YzhlYTM3YmVhYjNkMDY2NzUxY2ZjZDBhMWVjODRkXzBfMnJR.html"
+      }
+    ],
+    "site_receipts": [
+      "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/01xxkcFtN9iqYzhStKQVzAIHWq0U_OoqtnXZsZ97Cxc=/1759495572/Oth7j2/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NjEyLzNCcThFRllkX3UyMExYMnJkMHkxUEMxWjFhd2J2V2cyLzI4YzhlYTM3YmVhYjNkMDY2NzUxY2ZjZDBhMWVjODRkXzBfMnJR.html"
+    ]
+  }
+}

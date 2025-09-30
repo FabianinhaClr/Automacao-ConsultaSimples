@@ -1,0 +1,56 @@
+{
+  "_fetched_at": "2025-09-26T12:45:10.672591Z",
+  "response_text_snippet": "{\"code\":200,\"code_message\":\"A requisição foi processada com sucesso.\",\"errors\":[],\"header\":{\"api_version\":\"v2\",\"api_version_full\":\"2.2.30-20250926091904\",\"product\":\"Consultas\",\"service\":\"receita-federal/simples\",\"parameters\":{\"cnpj\":\"41253982000100\"},\"client_name\":\"Clara Fabiana Luiz Antonelo\",\"token_name\":\"Clara Fabiana Luiz Antonelo\",\"billable\":true,\"price\":\"0.24\",\"requested_at\":\"2025-09-26T09:4...",
+  "json": {
+    "code": 200,
+    "code_message": "A requisição foi processada com sucesso.",
+    "errors": [],
+    "header": {
+      "api_version": "v2",
+      "api_version_full": "2.2.30-20250926091904",
+      "product": "Consultas",
+      "service": "receita-federal/simples",
+      "parameters": {
+        "cnpj": "41253982000100"
+      },
+      "client_name": "Clara Fabiana Luiz Antonelo",
+      "token_name": "Clara Fabiana Luiz Antonelo",
+      "billable": true,
+      "price": "0.24",
+      "requested_at": "2025-09-26T09:45:09.000-03:00",
+      "elapsed_time_in_milliseconds": 1504,
+      "remote_ip": "177.126.194.62",
+      "signature": "1iIkMKWRo7+Sh7gjoFC54/ktYxbZ/mBgpopr2iyoW4Sk73fkmRtcpPxiygjJTXbP66nrFJ9KiWdmc4HSexItL2F7jV8lECyr66b8mg=="
+    },
+    "data_count": 1,
+    "data": [
+      {
+        "cnpj": "41.253.982/0001-00",
+        "conseguiu_obter_mais_informacoes": true,
+        "consulta_datahora": "26/09/2025 09:45:09",
+        "normalizado_cnpj": "41253982000100",
+        "origem": "web",
+        "razao_social": "WGK DISTRIBUIDORA LTDA",
+        "simei_eventos_futuros": [],
+        "simei_periodos_anteriores": [
+          {
+            "inicio_data": "17/03/2021",
+            "fim_data": "30/04/2023",
+            "detalhamento": "Desenquadrada por Comunicação Obrigatória do Contribuinte",
+            "normalizado_inicio_data": "17/03/2021",
+            "normalizado_fim_data": "30/04/2023"
+          }
+        ],
+        "simei_situacao": "NÃO enquadrado no SIMEI",
+        "simples_nacional_agendamentos": [],
+        "simples_nacional_eventos_futuros": [],
+        "simples_nacional_periodos_anteriores": [],
+        "simples_nacional_situacao": "Optante pelo Simples Nacional desde 17/03/2021",
+        "site_receipt": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/OrsSJ08h1ol5oIJNVQQJFnA9DQV7NWixL-3wmnx0vW4=/1759495509/cPcDJh/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NTA5Lzk3RkdrUUhIRVQ3aE5lTzRRU0JsdTBSejRNd2pPdlRPLzEyYzU4ODFkYzFhNjg3YmNhMzA3YTQwMTE1MDA2YWM0XzBfdmlN.html"
+      }
+    ],
+    "site_receipts": [
+      "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/OrsSJ08h1ol5oIJNVQQJFnA9DQV7NWixL-3wmnx0vW4=/1759495509/cPcDJh/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0NTA5Lzk3RkdrUUhIRVQ3aE5lTzRRU0JsdTBSejRNd2pPdlRPLzEyYzU4ODFkYzFhNjg3YmNhMzA3YTQwMTE1MDA2YWM0XzBfdmlN.html"
+    ]
+  }
+}

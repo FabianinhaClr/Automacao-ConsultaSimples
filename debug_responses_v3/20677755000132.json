@@ -1,0 +1,56 @@
+{
+  "_fetched_at": "2025-09-26T12:43:45.620221Z",
+  "response_text_snippet": "{\"code\":200,\"code_message\":\"A requisição foi processada com sucesso.\",\"errors\":[],\"header\":{\"api_version\":\"v2\",\"api_version_full\":\"2.2.30-20250926091904\",\"product\":\"Consultas\",\"service\":\"receita-federal/simples\",\"parameters\":{\"cnpj\":\"20677755000132\"},\"client_name\":\"Clara Fabiana Luiz Antonelo\",\"token_name\":\"Clara Fabiana Luiz Antonelo\",\"billable\":true,\"price\":\"0.24\",\"requested_at\":\"2025-09-26T09:4...",
+  "json": {
+    "code": 200,
+    "code_message": "A requisição foi processada com sucesso.",
+    "errors": [],
+    "header": {
+      "api_version": "v2",
+      "api_version_full": "2.2.30-20250926091904",
+      "product": "Consultas",
+      "service": "receita-federal/simples",
+      "parameters": {
+        "cnpj": "20677755000132"
+      },
+      "client_name": "Clara Fabiana Luiz Antonelo",
+      "token_name": "Clara Fabiana Luiz Antonelo",
+      "billable": true,
+      "price": "0.24",
+      "requested_at": "2025-09-26T09:43:44.000-03:00",
+      "elapsed_time_in_milliseconds": 1347,
+      "remote_ip": "177.126.194.62",
+      "signature": "EC4ERfWxLR7xSuIiJHyuJS7a2+ZGjfdwenGIdhGTRxi2oA3qYSoyjXu5HsNGp1f3fu++v3Y17/TXVX6EhucagNDZ8xEltT3cF9FLog=="
+    },
+    "data_count": 1,
+    "data": [
+      {
+        "cnpj": "20.677.755/0001-32",
+        "conseguiu_obter_mais_informacoes": true,
+        "consulta_datahora": "26/09/2025 09:43:44",
+        "normalizado_cnpj": "20677755000132",
+        "origem": "web",
+        "razao_social": "BELG INDUSTRIA DE ALIMENTOS LTDA",
+        "simei_eventos_futuros": [],
+        "simei_periodos_anteriores": [],
+        "simei_situacao": "NÃO enquadrado no SIMEI",
+        "simples_nacional_agendamentos": [],
+        "simples_nacional_eventos_futuros": [],
+        "simples_nacional_periodos_anteriores": [
+          {
+            "inicio_data": "18/07/2014",
+            "fim_data": "31/12/2019",
+            "detalhamento": "Excluída por Opção do Contribuinte",
+            "normalizado_inicio_data": "18/07/2014",
+            "normalizado_fim_data": "31/12/2019"
+          }
+        ],
+        "simples_nacional_situacao": "NÃO optante pelo Simples Nacional",
+        "site_receipt": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/KCIIEQdgkkQ-AG09M3pyLoTmHy-3biSiGzqAECDLCRY=/1759495424/JJmhVP/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0MzQ0L3hsSWxOSnpPb0E3bFNORUJaQWFfSXpJa0lGX29QZXVJLzU4NWNiYTg5MDE0MDUzMDcxM2JhYmJhMWJiYzVkZDk0XzBfOUZV.html"
+      }
+    ],
+    "site_receipts": [
+      "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/KCIIEQdgkkQ-AG09M3pyLoTmHy-3biSiGzqAECDLCRY=/1759495424/JJmhVP/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3JlY2VpdGEtZmVkZXJhbC9zaW1wbGVzLzIwMjUwOTI2MDk0MzQ0L3hsSWxOSnpPb0E3bFNORUJaQWFfSXpJa0lGX29QZXVJLzU4NWNiYTg5MDE0MDUzMDcxM2JhYmJhMWJiYzVkZDk0XzBfOUZV.html"
+    ]
+  }
+}

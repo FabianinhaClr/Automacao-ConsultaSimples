@@ -1,0 +1,85 @@
+Perfeito! Então a regra de **2025** que considerava “se começar em janeiro, o ano todo é simples” **não se aplica mais**. Agora **todos os anos, incluindo 2025, serão tratados mês a mês**, sem exceções.
+
+Vou reformular o prompt atualizado com essa mudança:
+
+---
+
+**Prompt atualizado para gerar programa Python de automação de consulta de CNPJs (mensal completo):**
+
+---
+
+Crie um **programa completo em Python** para automatizar a consulta de CNPJs e verificar se são optantes do **Simples Nacional**, considerando **todos os casos possíveis**. O código deve ser seguro, confiável e pronto para rodar, gerando um **Excel detalhado** com histórico **mensal**.
+
+**Requisitos detalhados:**
+
+---
+
+### 1. Entrada de dados:
+
+* Receber uma lista de CNPJs de um arquivo CSV ou TXT.
+* Cada CNPJ deve ser consultado separadamente.
+* Validar CNPJs, ignorando ou registrando aqueles inválidos.
+
+---
+
+### 2. Consulta:
+
+* Consultar a Receita Federal ou outro serviço confiável (API ou scraping).
+* Obter para cada CNPJ:
+  a) Situação atual do Simples Nacional.
+  b) Histórico completo desde **2020 até o mês atual de 2025**.
+* Lidar com casos em que só existe a situação atual (ex: “Optante desde 01/07/2007”) e ainda assim gerar os anos/mês corretamente.
+
+---
+
+### 3. Regras de validação (**mensal**):
+
+* Para cada **mês de cada ano de 2020 a 2025**:
+  a) Se o CNPJ estiver dentro do Simples Nacional durante o mês, registrar como **Simples Nacional**.
+  b) Se o período de simples dentro do mês for parcial, registrar como **Outro Regime**.
+* **Todos os anos, incluindo 2025, serão avaliados mês a mês**, sem exceção.
+* O programa deve gerar um **motivo detalhado** para cada registro, explicando exatamente:
+
+  * Período simples menor que o mês.
+  * Apenas situação atual conhecida, extrapolando para meses/anos corretamente.
+
+---
+
+### 4. Saída:
+
+* Gerar **Excel (.xlsx)** com as seguintes colunas:
+
+  1. `CNPJ+ANO+MÊS` (ex: `12345678000190/2023-01`)
+  2. `CNPJ`
+  3. `Ano`
+  4. `Mês`
+  5. `Regime`: “Simples Nacional” ou “Outro Regime”
+  6. `Motivo detalhado`
+
+* Evitar duplicação de dados e garantir que **todas as combinações mês/ano** de 2020 a 2025 sejam contabilizadas corretamente.
+
+---
+
+### 5. Código Python:
+
+* Modular, seguro, confiável e robusto.
+* Comentários claros explicando cada passo.
+* Mostrar **logs de progresso** no terminal, incluindo CNPJs processados e erros.
+* Tratar CNPJs inválidos ou ausentes.
+* Usar **pandas** para manipulação de dados e Excel.
+* Usar **requests + BeautifulSoup** para scraping se não houver API disponível.
+* Lidar corretamente com datas e períodos parciais dentro do mês/ano.
+* Fornecer instruções de instalação de bibliotecas necessárias (`pip install pandas requests beautifulsoup4 openpyxl tqdm`).
+
+---
+
+### 6. Extras:
+
+* Garantir que o Excel reflita **100% fielmente os períodos de simples ou outro regime**, com **motivos claros** para cada decisão.
+* O código deve ser **pronto para rodar** sem ajustes manuais.
+
+---
+
+Se você quiser, posso gerar **o código Python completo agora**, já incluindo **consulta mensal, logs, Excel detalhado e motivo para cada mês**.
+
+Quer que eu faça isso?
